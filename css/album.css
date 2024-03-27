@@ -1,0 +1,162 @@
+body {
+  background-color: #f7f6f6;
+}
+.pp {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 7%;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f7f6f6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Urbanist", sans-serif;
+}
+.dropdown-menu {
+  border-radius: 10px 0px 0px 10px;
+}
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.dropdown {
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.dropdown:hover {
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+/* End Navbar */
+
+/* Modal */
+.modal-content {
+  background-color: #eeeded;
+}
+.input {
+  background-color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding-left: 15px;
+  color: black;
+}
+.input:hover {
+  border-color: black;
+  border-width: 0.15rem;
+}
+.input:focus {
+  box-shadow: none;
+  border-color: black;
+}
+.batal {
+  background-color: rgb(224, 224, 224);
+  color: black;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 30px;
+  padding: 0;
+  height: 35px;
+  width: 20%;
+}
+.batal:hover {
+  border-color: black;
+  background-color: black !important;
+  color: white !important;
+}
+.simpan {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 30px;
+  border: 1px solid #000000;
+  padding: 0;
+  height: 35px;
+  width: 20%;
+}
+.simpan:hover {
+  background-color: rgb(224, 224, 224);
+  color: black !important;
+}
+#img-preview {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 500px;
+  height: 250px;
+}
+.inputfile {
+  display: none;
+}
+
+/* End Modal Profil_user*/
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+/* End Footer */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .dropdown-item {
+    font-size: 15px;
+  }
+  .pp {
+    margin-top: 9%;
+    font-size: 1px;
+  }
+  .btn {
+    font-size: 14px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+  .table {
+    font-size: 15px;
+  }
+
+  .navbar-brand {
+    font-size: 36px;
+  }
+  footer {
+    font-size: 14px;
+  }
+  /* End Modal Profil_user*/
+}
+
+@media (min-width: 500px) and (max-width: 767.98px) {
+  .dropdown-item {
+    font-size: 13px;
+  }
+  .pp {
+    margin-top: 14%;
+    font-size: 1px;
+  }
+  .btn {
+    font-size: 13px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+  .table {
+    font-size: 13px;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  /* End Modal Profil_user*/
+}

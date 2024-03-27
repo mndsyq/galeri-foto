@@ -1,0 +1,245 @@
+body {
+  background-color: #f7f6f6;
+}
+.pp {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f7f6f6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Urbanist", sans-serif;
+}
+.dropdown-menu {
+  border-radius: 10px 0px 0px 10px;
+}
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.dropdown {
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.dropdown:hover {
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/* End Navbar */
+
+/* Album */
+.container {
+  font-family: "Montserrat", sans-serif;
+}
+.tc {
+  margin-top: 4%;
+}
+.text-container {
+  margin-top: 6%;
+}
+.poto-galeri {
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+}
+.poto-galeri:hover {
+  transform: scale(1.01);
+}
+/* End Foto */
+
+/* Modal */
+.modal-content {
+  background-color: #eeeded;
+}
+.btn-label {
+  display: inline-block;
+  background-color: #f7f7f7;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0px 0px 15px 15px;
+  width: 100%;
+}
+.btn-label:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+#gbr-preview {
+  width: 220px;
+  height: 220px;
+}
+#img-preview {
+  border-radius: 10px;
+  width: 500px;
+  height: 250px;
+}
+#foto-preview {
+  border-radius: 10px;
+  width: 500px;
+  height: 250px;
+}
+.inputfile {
+  display: none;
+}
+.btn-edit-foto {
+  font-size: 85%;
+  height: 30px;
+  width: 100%;
+}
+.input {
+  background-color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding-left: 15px;
+  color: black;
+}
+.input:focus {
+  box-shadow: none;
+  border-color: black;
+  border: 2px solid #000000;
+}
+.batal {
+  background-color: rgb(224, 224, 224);
+  color: black;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 30px;
+  padding: 0;
+  height: 35px;
+  width: 20%;
+}
+.batal:hover {
+  border-color: black;
+  background-color: black !important;
+  color: white !important;
+}
+.simpan {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 30px;
+  border: 1px solid #000000;
+  padding: 0;
+  height: 35px;
+  width: 20%;
+}
+.simpan:hover {
+  background-color: rgb(224, 224, 224);
+  color: black !important;
+}
+/* End Modal Profil_user*/
+
+/* Footer */
+footer {
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+/* End Footer */
+
+/* For screens smaller than 768px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .tc {
+    margin-top: 20%;
+  }
+  .text-container {
+    margin-top: 9%;
+    font-size: 90%;
+  }
+  .fw-bold {
+    font-size: 150%;
+  }
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .dropdown-menu {
+    border-radius: 0;
+  }
+  .dropdown {
+    border-radius: 0;
+  }
+  .dropdown:hover {
+    border-radius: 0;
+  }
+  #gbr-preview {
+    width: 150px;
+    height: 150px;
+  }
+  #img-preview,
+  #foto-preview {
+    width: 100%;
+    height: auto;
+  }
+  .btn-edit-foto {
+    align-items: center;
+    font-size: 75%;
+    height: 30px;
+    width: 100%;
+  }
+  .batal,
+  .simpan {
+    height: 30px;
+    width: 30%;
+  }
+  .bttn {
+    font-size: 80%;
+  }
+  .btnbtn {
+    font-size: 80%;
+  }
+}
+
+/* For screens smaller than 576px */
+@media (min-width: 500px) and (max-width: 767.98px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .text-container {
+    font-size: 70%;
+    margin-top: 12%;
+  }
+  .fw-bold {
+    font-size: 200%;
+  }
+  .poto-galeri {
+    height: 100px;
+  }
+  #gbr-preview {
+    width: 120px;
+    height: 120px;
+  }
+  .btn-edit-foto {
+    font-size: 65%;
+    height: 30px;
+    width: 100%;
+  }
+  .batal,
+  .simpan {
+    height: 25px;
+    width: 35%;
+    font-size: 12px;
+  }
+  .bttn {
+    font-size: 70%;
+  }
+  .btnbtn {
+    font-size: 100%;
+  }
+}

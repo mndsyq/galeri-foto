@@ -1,0 +1,184 @@
+body {
+  background-color: #f7f6f6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f7f6f6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Urbanist", sans-serif;
+}
+.btn-masuk:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black !important;
+}
+.btn-daftar {
+  background-color: black;
+  color: white;
+}
+.btn-daftar:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black !important;
+}
+.dropdown-menu {
+  border-radius: 10px 0px 0px 10px;
+}
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.dropdown {
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.dropdown:hover {
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+/* End Navbar */
+
+/* Komen */
+.card {
+  margin-top: 9%;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 15px;
+  background-color: #f7f6f6;
+  border: none;
+}
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0px 0px 15px;
+}
+.card small {
+  font-size: 100%;
+}
+.card p {
+  font-size: 15px;
+}
+.komen {
+  max-height: 120px;
+  overflow-y: scroll;
+}
+.komen-user {
+  width: auto;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.card .input {
+  background-color: #f7f7f7;
+  border: 1px solid #000000;
+  padding-left: 12px;
+  height: 40px;
+  width: 90%;
+  font-size: 90%;
+}
+.card .input:hover {
+  border: 0.15rem solid #000000;
+}
+.card .input:focus {
+  background-color: white;
+  box-shadow: none;
+  border-color: black;
+  border: 2px solid #000000;
+}
+/* End Komen */
+
+/* Foto */
+.poto-galeri {
+  border-radius: 15px;
+  width: 100%;
+  height: 180px;
+}
+.poto-galeri:hover {
+  transform: scale(1.01);
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.username {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* End Foto */
+
+/* Footer */
+footer {
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+footer p {
+  font-size: 85%;
+  font-family: "Montserrat", sans-serif;
+}
+.btn-footer {
+  border-radius: 20px;
+  color: black;
+  height: 60px;
+  width: 60px;
+}
+.btn-footer:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.ikon {
+  width: 100%;
+  height: 100%;
+}
+/* End Footer */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .btn-footer {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767.98px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .card {
+    margin-top: 15%;
+    height: 50%;
+  }
+  .poto-galeri {
+    border-radius: 15px;
+    width: 100%;
+    height: 50%;
+  }
+  .username {
+    font-size: 9px;
+  }
+  .btn-footer {
+    height: 30px;
+    width: 30px;
+  }
+  small {
+    font-size: 60%;
+    width: 12%;
+    height: 12%;
+  }
+  h3 {
+    font-size: 90%;
+  }
+}
